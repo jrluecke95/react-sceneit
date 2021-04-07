@@ -1,8 +1,8 @@
 import { createStore } from "redux";
-import { movieReducer } from "./reducers";
+import { rootReducer } from "./reducers";
 
 
-const store = createStore(movieReducer,
+const store = createStore(rootReducer,
   window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
 export default store
